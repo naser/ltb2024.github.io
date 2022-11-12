@@ -1,0 +1,94 @@
+body {
+  min-height: 2000px;
+  font-family: 'Source Sans Pro', sans-serif;
+  padding-top: 200px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar-brand {
+  font-family: "Source Sans Pro", Open Sans;
+}
+
+.navbar-default {
+  background-color: #F0F0F0;
+  border: none;
+  border-radius: 0;
+}
+
+.navbar-collapse {
+  padding: 0;
+}
+
+/* forces the nav to take full container with */
+
+.navbar-nav>li>a {
+  text-transform: uppercase;
+}
+
+.navbar-nav {
+  display: table;
+  width: 100%;
+  margin: 0;
+}
+
+.navbar-nav>li {
+  display: table-cell;
+  text-align: center;
+  float: none;
+}
+
+h1 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 24px;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+  color: #5e6266;
+  width: 100%;
+  margin-top: 35px;
+  border-bottom: 2px solid #B5BEC5;
+}
+
+h2.scroll-title {
+  padding-top: 200px;
+  margin-top: -200px;
+}
+
+h3 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  color: #5e6266;
+}
+
+.main-content {
+  flex-grow: 1;
+  bottom: 0;
+}
+
+#tbl_program td {
+  vertical-align: top;
+}
+
+#tbl_program td {
+  padding-bottom: 15px;
+}
+
+@media screen and (min-width: 620px) {
+  #tbl_program td:nth-child(1) {
+    width: 20%;
+    min-width: 150px;
+    padding-right: 10px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  #tbl_program td {
+    display:block; box-sizing:border-box; clear:both
+  }
+}

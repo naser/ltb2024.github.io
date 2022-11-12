@@ -1,0 +1,239 @@
+body {
+	background-color: #ffffff;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+h1 {
+	font-family: 'Source Sans Pro', sans-serif;
+	//font-family: arial, helvetica, sans-serif;
+	//font-size: 36px;
+	border-bottom: 2px solid  #B5BEC5; 
+	font-size: 20px;
+	color: #5e6266;
+	margin: 20px 0px 20px 0px;
+}
+	
+h2 {
+	font-family: 'Source Sans Pro', sans-serif;
+	//font-family: arial, helvetica, sans-serif;
+	font-size: 20px;
+	color: #5e6266;
+    width: 100%;
+	margin-top: 35px;
+	border-bottom: 2px solid  #B5BEC5; 
+}
+ 
+table {
+	width: 100%;
+}
+ 
+#content {
+	//width: 780px;
+	width: 80%;
+	text-align: center;
+	margin-top: 0px; 
+	margin-right: auto; 
+	margin-bottom: 0px; 
+	margin-left: auto; 
+
+}
+
+#header {
+	background-color: #F0F0F0;
+	background-repeat: no-repeat;
+	background-position: 0px;
+	margin-top: 0px;
+    border-bottom: 0px solid #E0D8E0;
+    border-top: 0px solid #E0D8E0;
+	font-family: 'Source Sans Pro', sans-serif;
+	//font-family: arial, helvetica, sans-serif;
+	float: left;
+	//width: 820px;
+	width: 100%;
+	height: 130px;
+	text-align: left;
+}
+
+#header2 {
+	font-family: 'Source Sans Pro', sans-serif;
+	//font-family: arial, helvetica, sans-serif;
+	color: #5e6266;
+	text-align: center;
+}
+
+#header2 a {
+	text-decoration: underline;
+	color: #8d9399;
+}
+
+#content_sidebar {
+	font-family: 'Source Sans Pro', sans-serif;
+	//font-family: arial, helvetica, sans-serif;
+	font-size: 14px;
+	color: #555555;
+	float: left;
+	//width: 180px;
+	width: 18%;
+}
+
+.content_menu {
+	background-color: #f7f7f7;
+	background-repeat: no-repeat;
+	font-family: 'Source Sans Pro', sans-serif;
+	//font-family: arial, helvetica, sans-serif;
+    border-bottom: 1px solid #DDDDDD;
+    border-top: 1px solid #DDDDDD;
+	float: left;
+	clear: left;
+	margin-top: 30px;
+	//width: 180px;
+	width: 200px;
+	//width: 100%;
+	padding: 0px 0px 0px 0px;
+	font-size: 12px;
+}
+
+.content_menu span {
+	text-align: left;
+	padding: 8px 0px 8px 8px;
+	display: block;
+}
+
+.content_menu_logo {
+	float: left;
+	clear: left;
+	margin-top: 30px;
+	width: 100%;
+	padding: 0px 0px 0px 0px;
+}
+
+.content_menu_logo a {
+	color: #555555;
+}
+
+.content_menu div {
+  	display: block;
+    border-bottom: 1px dashed #DDDDDD;
+	font-size: 12px;
+	padding: 10px 0px 10px 0px;
+}
+
+.content_menu a {
+	text-decoration: none;
+	font-size: 12px;
+  	display: block;
+	padding: 8px 0px 8px 0px;
+	color: #555555;
+}
+
+.content_menu a:visited {
+	text-decoration: none;
+	font-size: 12px;
+  	display: block;
+	padding: 8px 0px 8px 0px;
+	color: #555555;
+}
+
+.content_menu a:active {
+	text-decoration: none;
+	font-size: 12px;
+  	display: block;
+	padding: 8px 0px 8px 0px;
+	color: #555555;
+}
+
+.content_menu a:hover {
+	text-decoration: underline;
+	font-size: 12px;
+  	display: block;
+	padding: 8px 0px 8px 0px;
+	background-color: #e5e5e5;
+	color: #000000;
+}
+
+#content_main {
+	font-family: 'Source Sans Pro', sans-serif;
+	//font-family: arial, helvetica, sans-serif;
+	font-size: 14px;
+    line-height: 130%;
+	color: #555555;
+	float: right;
+	//width: 560px;
+	width: 73%;
+	text-align: justify;
+}
+
+#content_main a, #content_main a:visited, #content_main a:active {
+	text-decoration: underline;
+	color: #8d9399;
+}
+
+#content_main a:hover {
+	text-decoration: underline;
+	color: #000000;
+}
+
+#content_right {
+	margin: 0 auto;
+	padding: 5px;
+	display: inline;
+	float: right;
+	width: 265px;
+}
+
+#content_left { 
+	margin: 0 auto;
+	padding: 5px;
+	display: inline;
+	float: left;
+	//width: 265px;
+	width: 30%;
+}
+
+#footer {
+	width: 100%;
+	border-top: 1px solid #DDDDDD;
+	text-align: center;
+	clear: both;
+	margin-top: 0px; 
+    margin-right: auto; 
+	margin-bottom: 0px; 
+	margin-left: auto; 
+}
+
+#footer_space {
+	line-height: 30px;
+	width: 100%;
+	clear: both;
+	margin-top: 0px; 
+    margin-right: auto; 
+	margin-bottom: 0px; 
+	margin-left: auto; 
+	}
+	
+#footer_right {
+	font-family: 'Source Sans Pro', sans-serif;
+	//font-family: arial, helvetica, sans-serif;
+	font-size: 12px;
+	color: #DDDDDD;
+	float: right;
+	text-align: right;
+}
+
+#footer_left {
+	font-family: 'Source Sans Pro', sans-serif;
+	//font-family: arial, helvetica, sans-serif;
+	font-size: 12px;
+	color: #999999;
+	float: left;
+	clear: left;
+	text-align: left;
+}
+
+#footer_right a, #footer_right a:visited, #footer_right a:active, #footer_right:hover {
+	text-decoration: none;
+	color: #999999;
+}
