@@ -96,7 +96,7 @@ h3 {
 details {
   border: 1px #aaa;
   border-radius: 4px;
-  padding: 0.5em 0.5em 0;
+  padding: 0.1em 0.1em 0;
 }
 
 summary {
@@ -107,7 +107,7 @@ summary {
 }
 
 details[open] {
-  padding: 0.5em;
+  padding: 0.1em;
 }
 
 details[open] summary {
